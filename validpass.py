@@ -38,7 +38,7 @@ if __name__ == "__main__":
     for parameter in parameters.keys():
         if parameter == 'email':
             email = parameters[parameter].value
-        if parameter == 'senha':
+        if parameter == 'password':
             password = parameters[parameter].value
 
     if (email == '') or (not ('@' in email)) or (password == ''):
