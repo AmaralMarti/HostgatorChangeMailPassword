@@ -42,9 +42,9 @@ if __name__ == "__main__":
     for parameter in parameters.keys():
         if parameter == 'email':
             email = parameters[parameter].value
-        if parameter == 'senhaatual':
+        if parameter == 'oldpass':
             old_password = parameters[parameter].value
-        if parameter == 'senhanova':
+        if parameter == 'newpass':
             new_password = parameters[parameter].value
 
     if (email == '') or (not ('@' in email)) or (old_password == '') or (new_password == ''):
